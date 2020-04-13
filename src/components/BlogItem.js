@@ -26,7 +26,7 @@ let BlogItem = ({onDelete,onUpDate,blogs:{title,author,subject,article,objectId}
                 onClick={()=>{
                     return onUpDate(objectId)
                         }} 
-                style={{margin:"10px 15px",color:'green'}}
+                style={{margin:"10px 15px",backgroundColor:"green"}}
                 >update
                 </Button>
             </div>
